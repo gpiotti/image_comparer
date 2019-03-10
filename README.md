@@ -18,3 +18,12 @@ Uso:
 	Devuelve una lista con el top 10 de matches
 
 
+Dependencies
+* pytest
+* libwebp
+* pillow
+* cv2 
+* numpy
+* opencv
+* flask
+* matplotlib

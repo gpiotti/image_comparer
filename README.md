@@ -11,9 +11,9 @@ Uso:
 
 * script para comparar imagenes desde MercadoLibre Api
 	python batch_compare.py "chromecast" "5" "1"
-	1er arg = query
-	2do arg = limite de productos para comparar
-	3er arg = 1 excluir matches exactos, 0 incluir matches exactos
+	* 1er arg = query
+	* 2do arg = limite de productos para comparar
+	* 3er arg = 1 excluir matches exactos, 0 incluir matches exactos
 
 	Devuelve una lista con el top 10 de matches
 

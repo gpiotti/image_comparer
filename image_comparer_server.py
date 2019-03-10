@@ -10,7 +10,7 @@ def image_comparer2():
     url_img1 = request.args.get('url_1')
     url_img2 = request.args.get('url_2')
 
-    results = my_image_comparer.compare_images(url_img1, url_img2, True)
+    results = my_image_comparer.compare_images(url_img1, url_img2, False)
     return jsonify({"Results": results})
 
 if __name__ == "__main__":

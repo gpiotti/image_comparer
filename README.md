@@ -5,6 +5,7 @@ Instalacion:
 * python image_comparer_build.py
 * python image_comparer_server.py
 
+
 Uso:
 * request de ejemplo
 	http://localhost:5000/?url_1=http://mlu-s1-p.mlstatic.com/878414-MLU28995916846_122018-O.jpg&url_2=http://mlu-s1-p.mlstatic.com/822514-MLU28996049521_122018-O.jpg
@@ -19,11 +20,15 @@ Uso:
 
 
 Dependencies
+* python version = 3.7
 * pytest
 * libwebp
 * pillow
-* cv2 
 * numpy
 * opencv
 * flask
 * matplotlib
+* requests
+
+Ejemplo instalar con conda
+conda install --yes --file requirements.txt

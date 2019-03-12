@@ -2,7 +2,7 @@ pytest
 libwebp
 pillow
 scikit-image
-cv2 
 numpy
 opencv
 flask
+requests

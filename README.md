@@ -5,6 +5,10 @@ Instalacion:
 * python image_comparer_build.py
 * python image_comparer_server.py
 
+Instalar dependencias
+	conda install --yes --file requirements.txt
+	o 
+	pip install -r requirements.txt
 
 Uso:
 * request de ejemplo
@@ -30,5 +34,3 @@ Dependencies
 * matplotlib
 * requests
 
-Ejemplo instalar con conda
-conda install --yes --file requirements.txt
